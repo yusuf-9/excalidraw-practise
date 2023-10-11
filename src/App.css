@@ -1,22 +1,24 @@
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-body, html {
-    min-height: 100%;
-}
-
-body {
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(27, 25, 35);
-}
-
-.App {
-    height: 90vh;
-    width: 70vw;
-}
+    background-color: rgb(45, 45, 45);
+  }
+  
+  .image-container {
+    margin: 0px 20px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  

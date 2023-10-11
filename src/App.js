@@ -1,13 +1,12 @@
+
 import "./app.css"
-import {Excalidraw} from "@excalidraw/excalidraw"
+import VanillJsCode from "./VanillaJsCode"
 
-
-function App() {
+export default function App() {
+  
   return (
-    <div className="App">
-      <Excalidraw />
+    <div className="App" style={{touchAction: 'none'}}>
+      <VanillJsCode />
     </div>
-  );
+  )
 }
-
-export default App;
